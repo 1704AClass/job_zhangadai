@@ -66,4 +66,7 @@
  		</set>
  		where id=#{id}
  	</update>
+ 	<select id="findAll" resultType="com.health.pojo.CheckGroup">
+ 		select * from t_checkgroup
+ 	</select>
  </mapper>

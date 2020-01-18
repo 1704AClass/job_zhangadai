@@ -22,4 +22,6 @@ public interface CheckGroupService {
 
 	PageResult pageQuery(Integer currentPage, Integer pageSize, String queryString);
 
+	List<CheckGroup> findAll();
+
 }

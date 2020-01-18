@@ -26,4 +26,6 @@ public interface CheckGroupDao {
 
 	Page<CheckItem> selectByCondition(String queryString);
 
+	List<CheckGroup> findAll();
+
 }
