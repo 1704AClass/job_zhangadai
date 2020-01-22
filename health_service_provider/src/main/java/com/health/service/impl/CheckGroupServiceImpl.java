@@ -28,6 +28,7 @@ public class CheckGroupServiceImpl implements CheckGroupService{
 	public void add(CheckGroup checkGroup, Integer[] checkitemIds) {
 		// TODO Auto-generated method stub
 		checkGroupDao.add(checkGroup);
+		setCheckGroupAndCheckItem(checkGroup.getId(),checkitemIds);
 	}
 	//向中间表(t_checkgroup_checkitem)插入数据（建立检查组和检查项关联关系） 
 	public void setCheckGroupAndCheckItem(Integer checkGroupId,Integer[] checkitemIds){

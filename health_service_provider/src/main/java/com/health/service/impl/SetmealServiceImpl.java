@@ -1,6 +1,7 @@
 package com.health.service.impl;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -52,6 +53,14 @@ public class SetmealServiceImpl implements SetmealService{
 		PageHelper.startPage(currentPage,pageSize);
 		Page<Setmeal> page=setmealDao.selectByCondition(queryString);
 		return new PageResult(page.getTotal(),page.getResult());
+	}
+	@Override
+	public List<Setmeal> findAll() {
+		return setmealDao.findAll();
+	}
+	@Override
+	public Setmeal findById(int id) {
+		return setmealDao.findById(id);
 	}
 
 }

@@ -1,0 +1,17 @@
+package com.health.service;
+
+import java.util.Map;
+
+import com.health.entity.Result;
+
+/**
+ * 体检预约服务接口
+ * @author Lenovo
+ *
+ */
+public interface OrderService {
+	//体检预约
+	public Result order(Map map) throws Exception;
+	//根据id查询预约信息，包括体检人信息、套餐信息
+	public Map findById(Integer id) throws Exception;
+}

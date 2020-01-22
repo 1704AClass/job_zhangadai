@@ -11,9 +11,9 @@ import com.qiniu.storage.model.DefaultPutRet;
 import com.qiniu.util.Auth;
 
 public class QiniuUtils {
-	public static String accessKey="RXphJPDXE5bLxDFTaUwkBGWaxsXWaSmeJFTF2h04";
-	public static String secretKey="SO-9szR23t32bcFtT8gJDUDbF9nnnBxWSrWGMLIQ";
-	public static String bucket="bindada";
+	static String accessKey = "iAZa0ohGDili4XRa6RjC2VTls0FI9w2Ids3qz2cc"; // key
+	static String secretKey = "FJdwJ9a4KNQ2XOqHv_nENo-oayJHb2t1JQk08JGV"; // 密码
+	static String bucket = "aisile-file"; //储存空间名称
 	public static void upload2Qiniu(String filePath,String fileName){
 		//构造一个带指定Zone对象的配置类
 		Configuration cfg=new Configuration(Zone.zone0());

@@ -257,6 +257,7 @@
   	<module>health_pojo</module>
   	<module>health_dao</module>
   	<module>quartzdemo</module>
-  	<module>health_jobs</module>
+  	<module>health_mobile</module>
+  	<module>springsecuritydemo</module>
   </modules>
 </project>

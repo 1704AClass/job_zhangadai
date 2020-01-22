@@ -23,7 +23,7 @@
 	</mvc:annotation-driven>
 	<!-- 引用dubbo 服务 -->
 	<dubbo:application name="health_backend"/>
-	<dubbo:registry address="zookeeper://localhost:2181"/>
+	<dubbo:registry address="zookeeper://39.106.148.236:2181"/>
 	<dubbo:annotation package="com.health.controller"/>
 	<dubbo:consumer timeout="600000" check="false"></dubbo:consumer>
 	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
