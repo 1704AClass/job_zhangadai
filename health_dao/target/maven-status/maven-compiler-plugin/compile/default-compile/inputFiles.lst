@@ -1,7 +1,9 @@
 E:\JavaEclipse\healthOne\health_parent\health_dao\src\main\java\com\health\mapper\OrderDao.java
 E:\JavaEclipse\healthOne\health_parent\health_dao\src\main\java\com\health\mapper\SetmealDao.java
 E:\JavaEclipse\healthOne\health_parent\health_dao\src\main\java\com\health\mapper\CheckGroupDao.java
-E:\JavaEclipse\healthOne\health_parent\health_dao\src\main\java\com\health\mapper\UserMapper.java
+E:\JavaEclipse\healthOne\health_parent\health_dao\src\main\java\com\health\mapper\RoleDao.java
 E:\JavaEclipse\healthOne\health_parent\health_dao\src\main\java\com\health\mapper\MemberDao.java
+E:\JavaEclipse\healthOne\health_parent\health_dao\src\main\java\com\health\mapper\PermissionDao.java
 E:\JavaEclipse\healthOne\health_parent\health_dao\src\main\java\com\health\mapper\OrderSettingDao.java
 E:\JavaEclipse\healthOne\health_parent\health_dao\src\main\java\com\health\mapper\CheckItemMapper.java
+E:\JavaEclipse\healthOne\health_parent\health_dao\src\main\java\com\health\mapper\UserDao.java

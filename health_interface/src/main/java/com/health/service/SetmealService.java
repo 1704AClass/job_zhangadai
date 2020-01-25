@@ -1,6 +1,7 @@
 package com.health.service;
 
 import java.util.List;
+import java.util.Map;
 
 import com.health.entity.PageResult;
 import com.health.pojo.Setmeal;
@@ -15,4 +16,5 @@ public interface SetmealService {
 
 	Setmeal findById(int id);
 
+	List<Map<String, Object>> findSetmealCount();
 }
